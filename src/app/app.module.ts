@@ -6,11 +6,13 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { BaseComponent } from './components/base/base.component';
 import { PeliculaService } from './services/pelicula.service';
+import { ListaComponent } from './components/lista/lista.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    BaseComponent
+    BaseComponent,
+    ListaComponent
   ],
   imports: [
     BrowserModule,
