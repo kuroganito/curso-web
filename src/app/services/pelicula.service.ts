@@ -1,13 +1,13 @@
 import {Injectable} from '@angular/core';
 
-interface IPelicula {
+export interface IPelicula {
     titulo: string;
     imagen: string;
     calificacion: number;
     sinopsis: string;
 }
 
-interface IPeliculaService {
+ interface IPeliculaService {
     obtenerPeliculas(): Array<IPelicula>
 }
 

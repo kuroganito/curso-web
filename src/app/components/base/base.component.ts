@@ -1,4 +1,5 @@
 import {Component, OnInit} from '@angular/core';
+import {PeliculaService,IPelicula} from '../../services/pelicula.service'
 
 @Component({
     selector: 'app-base',
@@ -8,10 +9,11 @@ import {Component, OnInit} from '@angular/core';
 export class BaseComponent implements OnInit {
 
     titulo:string;
-    peliculas:Array<any>;
+    peliculas:Array<IPelicula>;
     
-    constructor() {
+    constructor(public peliculaService:PeliculaService) {
         this.titulo = "InfoCine";
+        this.peliculas = peliculaService.obtenerPeliculas();
     }
 
     ngOnInit() {
