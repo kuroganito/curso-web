@@ -18,5 +18,9 @@ export class BaseComponent implements OnInit {
 
     ngOnInit() {
     }
+    
+    cambiaDetalle(e){
+        
+    }
 
 }

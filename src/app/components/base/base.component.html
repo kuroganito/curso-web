@@ -1,6 +1,8 @@
 <h1>{{titulo}}</h1>
 <div id="contenedor">
-    <div id="lista"></div>
+    <div id="lista">
+        <app-lista [peliculas]="peliculas" (cambiaDetalle)="cambiaDetalle($event)"></app-lista>
+    </div>
     <div id="detalle"></div>
 </div>
     
