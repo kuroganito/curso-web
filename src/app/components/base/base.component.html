@@ -3,6 +3,8 @@
     <div id="lista">
         <app-lista [peliculas]="peliculas" (cambiaDetalle)="cambiaDetalle($event)"></app-lista>
     </div>
-    <div id="detalle"></div>
+    <div id="detalle">
+        <app-detalle [pelicula]="peliculaDetalle"></app-detalle>
+    </div>
 </div>
     

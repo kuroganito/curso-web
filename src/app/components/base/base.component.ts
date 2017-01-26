@@ -10,17 +10,19 @@ export class BaseComponent implements OnInit {
 
     titulo:string;
     peliculas:Array<IPelicula>;
+    peliculaDetalle:IPelicula;
     
     constructor(public peliculaService:PeliculaService) {
         this.titulo = "InfoCine";
         this.peliculas = peliculaService.obtenerPeliculas();
+        this.peliculaDetalle = this.peliculas[0];
     }
 
     ngOnInit() {
     }
     
     cambiaDetalle(e){
-        
+        this.peliculaDetalle = e;
     }
 
 }
