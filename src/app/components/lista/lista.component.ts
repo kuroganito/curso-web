@@ -14,5 +14,7 @@ export class ListaComponent implements OnInit {
 
     ngOnInit() {
     }
-
+    seleccionarPelicula(pelicula:IPelicula){
+        this.cambiaDetalle.emit(pelicula);
+    }
 }
