@@ -1,0 +1,18 @@
+h1{
+    text-align: center
+}
+
+#contenedor{
+    border: black 5px solid;
+    border-radius: 10px;
+    display: flex; 
+    height: 60vh;
+    margin: auto;
+    width: 60%;
+}
+#detalle{
+    flex: 2;
+}
+#lista{
+    flex:1;
+}
