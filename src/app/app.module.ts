@@ -7,12 +7,14 @@ import { AppComponent } from './app.component';
 import { BaseComponent } from './components/base/base.component';
 import { PeliculaService } from './services/pelicula.service';
 import { ListaComponent } from './components/lista/lista.component';
+import { DetalleComponent } from './components/detalle/detalle.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BaseComponent,
-    ListaComponent
+    ListaComponent,
+    DetalleComponent
   ],
   imports: [
     BrowserModule,
