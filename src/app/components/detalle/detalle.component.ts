@@ -18,7 +18,6 @@ export class DetalleComponent implements OnInit,OnChanges {
         this.stars = [];
         for(let i = 0;i<5;i++)
             this.stars.push(this.pelicula.calificacion>i?'ion-ios-star':'ion-android-star-outline')
-            console.log(this.stars)
     }
 
 }
