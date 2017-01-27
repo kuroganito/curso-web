@@ -1,0 +1,18 @@
+ul{
+    margin: 0;
+    padding: 0;
+    margin-top: 16px;
+}
+li{
+    cursor: pointer; 
+    display: block;
+    padding: 12px 0;
+    text-align: justify;
+    width:100%;
+    border-bottom: #BBB 1px solid ;
+}
+
+li:first-child{
+     border-top: #BBB 1px solid ;
+}
+

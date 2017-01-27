@@ -1,0 +1,19 @@
+h2{
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+img{
+    float: right;
+    margin: 0 16px;
+}
+
+p{
+    text-align: justify;
+    line-height: 1.4em;
+}
+
+#star-container{
+    text-align: right;
+    float: right;
+}

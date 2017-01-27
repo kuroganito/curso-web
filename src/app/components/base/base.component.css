@@ -6,13 +6,17 @@ h1{
     border: black 5px solid;
     border-radius: 10px;
     display: flex; 
-    height: 60vh;
+    min-height: 60vh;
     margin: auto;
     width: 60%;
+}
+#contenedor >div{
+    padding:16px;
 }
 #detalle{
     flex: 2;
 }
 #lista{
+    background-color: #F6F6F6;
     flex:1;
 }
